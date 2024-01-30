@@ -17,14 +17,14 @@ public class Main
         }
         else if(D>0)
         {
-            Double root1=(-b+Math.sqrt(D))/2*a;
-            Double root2=(-b-Math.sqrt(D))/2*a;
+            Double root1=(-b+Math.sqrt(D))/(2*a);
+            Double root2=(-b-Math.sqrt(D))/(2*a);
             System.out.println("root 1="+root1);
             System.out.println("root 2="+root2);
         }
         else
         {
-            Double real=-b/2*a;
+            Double real=-b/(2*a);
             Double imag=Math.sqrt(-D)/2*a;
             System.out.println("root 1="+real+" "+imag+"i");
             System.out.println("root 2="+real+" "+(-imag)+"i");
