@@ -44,7 +44,7 @@ public class Main
                  queue.poll();
                  key.notifyAll();
                  Thread.sleep(1000);
-                 System.out.println("consumer "+queue.size()+1);
+                 System.out.println("consumer "+(queue.size()+1));
                  iteration++;
                  }
                  catch(InterruptedException e)
