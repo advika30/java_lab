@@ -25,7 +25,7 @@ public class Main
         else
         {
             Double real=-b/(2*a);
-            Double imag=Math.sqrt(-D)/2*a;
+            Double imag=Math.sqrt(-D)/(2*a);
             System.out.println("root 1="+real+" "+imag+"i");
             System.out.println("root 2="+real+" "+(-imag)+"i");
         }
